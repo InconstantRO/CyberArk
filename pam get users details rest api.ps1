@@ -1,5 +1,6 @@
 # This is a script to get CyberArk users and their details
-# (c) This is a modified version of the script take from CyberArk
+# (c) This is a modified version of the script taken from CyberArk
+# Original script:
 # NAME: Import a Platform or a Connection Component
 # Original script AUTHOR: Yair Assa
 # Modified script author: Dmitriy Reznikov
