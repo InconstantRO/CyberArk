@@ -242,6 +242,12 @@ Write-Host "Display authentication method for each user"
 foreach($id in $allUsersDetailsV10.Keys) {
 	# Display user name and authentication methods
 	Write-Host $allUsersDetailsV10[$id].username " " $allUsersDetailsV10[$id].authenticationMethod
+	# Other available parameters can be found here:
+	# https://docs.cyberark.com/Product-Doc/OnlineHelp/PAS/Latest/en/Content/SDK/get-user-details-v10.htm
+	# Check Result - column named "Parameter" reperesents available parameters
+	# For example:
+	# Write-Host $allUsersDetailsV10[$id].enabled
+	# will show you if user is enabled or not
 }
 
 #Logoff
